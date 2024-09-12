@@ -54,14 +54,15 @@
         </div>
       </nav></header>
     <section class="u-align-center u-clearfix u-white u-section-1" id="sec-d1a3">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
-        <div id="carousel-4ae5" data-interval="5000" data-u-ride="carousel" class="u-carousel u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-slider u-slider-1">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div id="carousel-eb17" data-interval="5000" data-u-ride="carousel" class="u-carousel u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-slider u-slider-1">
           <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
-            <li data-u-target="#carousel-4ae5" class="u-active u-grey-30 u-shape-circle" data-u-slide-to="0" style="width: 10px; height: 10px;"></li>
-            <li data-u-target="#carousel-4ae5" class="u-grey-30 u-shape-circle" data-u-slide-to="1" style="width: 10px; height: 10px;"></li>
-            <li data-u-target="#carousel-4ae5" class="u-grey-30 u-shape-circle" data-u-slide-to="2" style="width: 10px; height: 10px;"></li>
-            <li data-u-target="#carousel-4ae5" class="u-grey-30 u-shape-circle" data-u-slide-to="3" style="width: 10px; height: 10px;"></li>
-            <li data-u-target="#carousel-4ae5" class="u-grey-30 u-shape-circle" data-u-slide-to="4" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-eb17" class="u-active u-grey-30 u-shape-circle" data-u-slide-to="0" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-eb17" class="u-grey-30 u-shape-circle" data-u-slide-to="1" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-eb17" class="u-grey-30 u-shape-circle" data-u-slide-to="2" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-eb17" class="u-grey-30 u-shape-circle" data-u-slide-to="3" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-eb17" class="u-grey-30 u-shape-circle" data-u-slide-to="4" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-eb17" class="u-grey-30 u-shape-circle" data-u-slide-to="5" style="width: 10px; height: 10px;"></li>
           </ol>
           <div class="u-carousel-inner" role="listbox">
             <div class="u-active u-align-center u-carousel-item u-container-style u-slide">
@@ -87,14 +88,48 @@
                 </div>
               </div>
             </div>
-            <div class="u-align-center u-carousel-item u-container-style u-slide">
+            <div class="u-carousel-item u-container-style u-slide u-carousel-item-2">
               <div class="u-container-layout u-container-layout-2">
-                <h3 class="u-custom-font u-text u-text-4">Particle-based Stochastic Reaction-Diffusion M​​ethods<br>
+                <h3 class="u-align-center u-custom-font u-text u-text-4">Diffusion on Intracellular Networks<br>
                 </h3>
-                <p class="u-custom-font u-text u-text-palette-1-base u-text-5">Unstructured Mesh Fokker-Planck Equation</p>
-                <p class="u-align-left u-custom-font u-heading-font u-text u-text-6"> For many signaling pathways, diffusion is one of the transport mechanisms during the early stages of signal propagation, particularly for protein motion within the cell membrane. A challenge in modeling the motion of such proteins is that there are also drift induced from contraction of F-actin fibers near the cell membrane. In this project, we extend our previously developed numerical methods to incorporate variable diffusivity and drift due to potential fields in a bounded domain.<br>
+                <p class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-custom-font u-text u-text-5">
+                  <a href="https://arxiv.org/abs/2207.07682" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" target="_blank">Fast Solver for Diffusive Transport Times on Dynamic Intracellular Networks</a>
                 </p>
+                <p class="u-align-left u-custom-font u-heading-font u-text u-text-6"> The transport of particles in cells is influenced by the properties of intracellular networks they traverse while searching for localized target regions or reaction partners. Moreover, given the rapid turnover in many intracellular structures, it is crucial to understand how temporal changes in the network structure affect diffusive transport. In this work, we use network theory to characterize complex intracellular biological environments across scales. We develop an efficient computational method to compute the mean first passage times for simulating a particle diffusing along two-dimensional planar networks extracted from fluorescence microscopy imaging. We first benchmark this methodology in the context of synthetic networks, and subsequently apply it to live-cell data from endoplasmic reticulum tubular networks.<br>
+                </p>
+                <img class="custom-expanded u-image u-image-default u-image-3" src="images/FIG02.png" alt="" data-image-width="1062" data-image-height="413">
+                <p class="u-align-left u-heading-font u-text u-text-7"> Computation time and efficiency comparison of the original method and the optimized method using the Sherman-Morrison formula.</p>
                 <div class="u-uploaded-video u-video u-video-contain u-video-2">
+                  <div class="embed-responsive">
+                    <video class="embed-responsive-item">
+                      <source src="files/Video_S1.mp4" type="video/mp4">
+                      <p>Your browser does not support HTML5 video.</p>
+                    </video>
+                    <button class="u-video-poster"></button>
+                  </div>
+                </div>
+                <div class="u-expanded-width-xs u-uploaded-video u-video u-video-contain u-video-3">
+                  <div class="embed-responsive">
+                    <video class="embed-responsive-item">
+                      <source src="files/Video_S2.mp4" type="video/mp4">
+                      <p>Your browser does not support HTML5 video.</p>
+                    </video>
+                    <button class="u-video-poster"></button>
+                  </div>
+                </div>
+                <p class="u-align-left u-heading-font u-text u-text-8"> Diffusive transport analysis of an S2 cell ER network</p>
+                <p class="u-align-left u-heading-font u-text u-text-9"> Diffusive transport analysis of the neuromuscular junction (NMJ) in <span style="font-style: italic;">D. melanogaster</span> ER network<br>
+                </p>
+              </div>
+            </div>
+            <div class="u-align-center u-carousel-item u-container-style u-slide u-carousel-item-3">
+              <div class="u-container-layout u-container-layout-3">
+                <h3 class="u-custom-font u-text u-text-10">Particle-based Stochastic Reaction-Diffusion M​​ethods<br>
+                </h3>
+                <p class="u-custom-font u-text u-text-palette-1-base u-text-11">Unstructured Mesh Fokker-Planck Equation</p>
+                <p class="u-align-left u-custom-font u-heading-font u-text u-text-12"> For many signaling pathways, diffusion is one of the transport mechanisms during the early stages of signal propagation, particularly for protein motion within the cell membrane. A challenge in modeling the motion of such proteins is that there are also drift induced from contraction of F-actin fibers near the cell membrane. In this project, we extend our previously developed numerical methods to incorporate variable diffusivity and drift due to potential fields in a bounded domain.<br>
+                </p>
+                <div class="u-uploaded-video u-video u-video-contain u-video-4">
                   <div class="embed-responsive">
                     <video class="embed-responsive-item">
                       <source src="files/IS_compressed.mp4" type="video/mp4">
@@ -105,17 +140,56 @@
                 </div>
               </div>
             </div>
-            <div class="u-carousel-item u-container-style u-slide">
-              <div class="u-container-layout u-container-layout-3">
-                <h3 class="u-align-center u-custom-font u-text u-text-7">T Cell Signaling Pathways<br>
+            <div class="u-carousel-item u-container-style u-slide u-carousel-item-4">
+              <div class="u-container-layout u-container-layout-4">
+                <h3 class="u-align-center u-custom-font u-text u-text-13">Collective Cell Migration<br>
                 </h3>
-                <p class="u-align-center u-custom-font u-text u-text-8">
-                  <a href="https://www.sciencedirect.com/science/article/pii/S0021999118304972?via%3Dihub" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" target="_blank">The Influence of Molecular Reach and Diffusivity on the Efficacy of Membrane-confined Reactions</a>
+                <p class="u-align-center u-custom-font u-text u-text-14">
+                  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011241" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" target="_blank">Emergence of Different Collective Cell Migratory Patterns</a>
                 </p>
-                <p class="u-align-left u-custom-font u-heading-font u-text u-text-9"> Signaling by surface receptors often relies on tethered reactions where an enzyme is bound to the cytoplasmic tail of a receptor to facilitate interactions. The overall length and stiffness of the tail, the enzyme, and the substrate together determine a biophysical parameter termed the molecular reach. Although the signaling pathways of immune receptors have been extensively studied, the role of molecular reach is still less well understood; and the design of experiments to facilitate such studies remains an open question. This project contributes to the solution to these problems by focusing on the membrane-confined reactions among immune checkpoint receptors and applying both numerical simulations and analytical tools to study the dephosphorylation reactions among these receptors.<br>
+                <p class="u-align-left u-custom-font u-heading-font u-text u-text-15"> Cooperative cell migration is important in various physiological and pathological processes, such as wound healing and cancer metastasis. This coordination can result from interactions among cells or external signals. Without external cues, cells coordinate with each other to produce diverse migratory patterns. Despite extensive studies, the primary contributor at the cell-cell junction driving this coordination remains unclear. Experimental research has shown distinct migratory patterns in pairs of Dictyostelium cells. In approximately 80% of the time, each cell generates a contractile traction force dipole independently, while in the remaining 20% of the time, two cells fuse into a single contractile traction force dipole. Building on these observations, I first developed a simplified one-dimensional (1D) model to explore mechanical models at the cell-cell junction that produce different migratory patterns. To further quantify these patterns, I used a two-dimensional (2D) model extended from previous work. This research seeks to identify the mechanical mechanisms at the cell-cell junction that determine collective migration patterns. The 1D and 2D models can be extended to study larger cell groups and complex junctional mechanisms, providing valuable insights into cell migration in a broad class of systems.<br>
                 </p>
-                <img class="u-image u-image-contain u-image-default u-image-3" src="images/tethered.png" alt="" data-image-width="315" data-image-height="204">
-                <div class="u-expanded-width-xs u-uploaded-video u-video u-video-contain u-video-3">
+                <div class="u-uploaded-video u-video u-video-contain u-video-5">
+                  <div class="embed-responsive">
+                    <video class="embed-responsive-item">
+                      <source src="files/2D_ModeIC_T400_Frep_6_Fast.mp4" type="video/mp4">
+                      <p>Your browser does not support HTML5 video.</p>
+                    </video>
+                    <button class="u-video-poster"></button>
+                  </div>
+                </div>
+                <img class="u-image u-image-default u-image-4" src="images/2D_ModeIC_kymo_T400_Frep_6.png" alt="" data-image-width="1214" data-image-height="1360">
+                <div class="u-uploaded-video u-video u-video-contain u-video-6">
+                  <div class="embed-responsive">
+                    <video class="embed-responsive-item">
+                      <source src="files/2D_ModeS_T400_Frep_6_Fast.mp4" type="video/mp4">
+                      <p>Your browser does not support HTML5 video.</p>
+                    </video>
+                    <button class="u-video-poster"></button>
+                  </div>
+                </div>
+                <p class="u-align-center u-custom-font u-text u-text-16">
+                  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011241" class="u-btn u-button-link u-button-style u-text-palette-2-base u-btn-4" target="_blank">Individual<br>Contributor<br>
+                  </a>
+                </p>
+                <img class="u-image u-image-default u-image-5" src="images/2D_ModeIC_kymo_T400_Frep_6.png" alt="" data-image-width="1214" data-image-height="1360">
+                <p class="u-align-center u-custom-font u-text u-text-17">
+                  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011241" class="u-btn u-button-link u-button-style u-text-palette-2-base u-btn-5" target="_blank">Supra-cell<br>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide u-carousel-item-5">
+              <div class="u-container-layout u-container-layout-5">
+                <h3 class="u-align-center u-custom-font u-text u-text-18">T Cell Signaling Pathways<br>
+                </h3>
+                <p class="u-align-center u-custom-font u-text u-text-19">
+                  <a href="https://www.sciencedirect.com/science/article/pii/S0021999118304972?via%3Dihub" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-6" target="_blank">The Influence of Molecular Reach and Diffusivity on the Efficacy of Membrane-confined Reactions</a>
+                </p>
+                <p class="u-align-left u-custom-font u-heading-font u-text u-text-20"> Signaling by surface receptors often relies on tethered reactions where an enzyme is bound to the cytoplasmic tail of a receptor to facilitate interactions. The overall length and stiffness of the tail, the enzyme, and the substrate together determine a biophysical parameter termed the molecular reach. Although the signaling pathways of immune receptors have been extensively studied, the role of molecular reach is still less well understood; and the design of experiments to facilitate such studies remains an open question. This project contributes to the solution to these problems by focusing on the membrane-confined reactions among immune checkpoint receptors and applying both numerical simulations and analytical tools to study the dephosphorylation reactions among these receptors.<br>
+                </p>
+                <img class="u-image u-image-contain u-image-default u-image-6" src="images/tethered.png" alt="" data-image-width="315" data-image-height="204">
+                <div class="u-expanded-width-xs u-uploaded-video u-video u-video-contain u-video-7">
                   <div class="embed-responsive">
                     <video class="embed-responsive-item">
                       <source src="files/tethered3DEx_compressed.mp4" type="video/mp4">
@@ -124,7 +198,7 @@
                     <button class="u-video-poster"></button>
                   </div>
                 </div>
-                <div class="u-expanded-width-xs u-uploaded-video u-video u-video-contain u-video-4">
+                <div class="u-expanded-width-xs u-uploaded-video u-video u-video-contain u-video-8">
                   <div class="embed-responsive">
                     <video class="embed-responsive-item">
                       <source src="files/tethered2DEx_compressed.mp4" type="video/mp4">
@@ -135,16 +209,16 @@
                 </div>
               </div>
             </div>
-            <div class="u-carousel-item u-container-style u-slide">
-              <div class="u-container-layout u-container-layout-4">
-                <h3 class="u-align-center u-custom-font u-text u-text-10">Immersed Boundary Methods<br>
+            <div class="u-carousel-item u-container-style u-slide u-carousel-item-6">
+              <div class="u-container-layout u-container-layout-6">
+                <h3 class="u-align-center u-custom-font u-text u-text-21">Immersed Boundary Methods<br>
                 </h3>
-                <p class="u-align-center u-custom-font u-text u-text-11">
-                  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011241" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" target="_blank">The Vessel Wall Geometry vs. The Motion of Red Blood Cells</a>
+                <p class="u-align-center u-custom-font u-text u-text-22">
+                  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011241" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-7" target="_blank">The Vessel Wall Geometry vs. The Motion of Red Blood Cells</a>
                 </p>
-                <p class="u-align-left u-custom-font u-heading-font u-text u-text-12"> The geometry of the blood vessel wall plays a regulatory role on the motion of red blood cells (RBCs). The overall topography of the vessel wall depends on many features, among which the endothelial lining of the endothelial surface layer (ESL) is an important one. The endothelial lining of vessel walls presents a large surface area for exchanging materials between blood and tissues. The ESL plays a critical role in regulating vascular permeability, hindering leukocyte adhesion as well as inhibiting coagulation during inflammation. Changes in the ESL structure are believed to cause vascular hyperpermeability and entrap immune cells during sepsis, which could significantly alter the vessel wall geometry and disturb interactions between RBCs and the vessel wall, including the wall-induced migration of RBCs and the thickening of a cell-free layer. To investigate the influence of the vessel wall geometry particularly changed by the ESL under various pathological conditions, such as sepsis, on the motion of RBCs, we developed two models to represent the ESL using the immersed boundary method in two dimensions. In particular, we used simulations to study how the lift force and drag force on a RBC near the vessel wall vary with different wall thickness, spatial variation, and permeability associated with changes in the vessel wall geometry. We find that the spatial variation of the wall has a significant effect on the wall-induced migration of the RBC for a high permeability, and that the wall-induced migration is significantly inhibited as the vessel diameter is increased.<br>
+                <p class="u-align-left u-custom-font u-heading-font u-text u-text-23"> The geometry of the blood vessel wall plays a regulatory role on the motion of red blood cells (RBCs). The overall topography of the vessel wall depends on many features, among which the endothelial lining of the endothelial surface layer (ESL) is an important one. The endothelial lining of vessel walls presents a large surface area for exchanging materials between blood and tissues. The ESL plays a critical role in regulating vascular permeability, hindering leukocyte adhesion as well as inhibiting coagulation during inflammation. Changes in the ESL structure are believed to cause vascular hyperpermeability and entrap immune cells during sepsis, which could significantly alter the vessel wall geometry and disturb interactions between RBCs and the vessel wall, including the wall-induced migration of RBCs and the thickening of a cell-free layer. To investigate the influence of the vessel wall geometry particularly changed by the ESL under various pathological conditions, such as sepsis, on the motion of RBCs, we developed two models to represent the ESL using the immersed boundary method in two dimensions. In particular, we used simulations to study how the lift force and drag force on a RBC near the vessel wall vary with different wall thickness, spatial variation, and permeability associated with changes in the vessel wall geometry. We find that the spatial variation of the wall has a significant effect on the wall-induced migration of the RBC for a high permeability, and that the wall-induced migration is significantly inhibited as the vessel diameter is increased.<br>
                 </p>
-                <div class="u-expanded-width-xs u-uploaded-video u-video u-video-contain u-video-5">
+                <div class="u-expanded-width-xs u-uploaded-video u-video u-video-contain u-video-9">
                   <div class="embed-responsive">
                     <video class="embed-responsive-item">
                       <source src="files/Glyco_multibicon_new_1_compressed.mp4" type="video/mp4">
@@ -153,7 +227,7 @@
                     <button class="u-video-poster"></button>
                   </div>
                 </div>
-                <div class="u-uploaded-video u-video u-video-contain u-video-6">
+                <div class="u-uploaded-video u-video u-video-contain u-video-10">
                   <div class="embed-responsive">
                     <video class="embed-responsive-item">
                       <source src="files/Glyco_multibicon_new_2_compressed.mp4" type="video/mp4">
@@ -164,42 +238,8 @@
                 </div>
               </div>
             </div>
-            <div class="u-carousel-item u-container-style u-slide u-carousel-item-5">
-              <div class="u-container-layout u-container-layout-5">
-                <h3 class="u-align-center u-custom-font u-text u-text-13">Diffusion on Intracellular Networks<br>
-                </h3>
-                <p class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-custom-font u-text u-text-14">
-                  <a href="https://arxiv.org/abs/2207.07682" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-4" target="_blank">Fast Solver for Diffusive Transport Times on Dynamic Intracellular Networks</a>
-                </p>
-                <p class="u-align-left u-custom-font u-heading-font u-text u-text-15"> The transport of particles in cells is influenced by the properties of intracellular networks they traverse while searching for localized target regions or reaction partners. Moreover, given the rapid turnover in many intracellular structures, it is crucial to understand how temporal changes in the network structure affect diffusive transport. In this work, we use network theory to characterize complex intracellular biological environments across scales. We develop an efficient computational method to compute the mean first passage times for simulating a particle diffusing along two-dimensional planar networks extracted from fluorescence microscopy imaging. We first benchmark this methodology in the context of synthetic networks, and subsequently apply it to live-cell data from endoplasmic reticulum tubular networks.<br>
-                </p>
-                <img class="custom-expanded u-image u-image-default u-image-4" src="images/FIG02.png" alt="" data-image-width="1062" data-image-height="413">
-                <p class="u-align-left u-heading-font u-text u-text-16"> Computation time and efficiency comparison of the original method and the optimized method using the Sherman-Morrison formula.</p>
-                <div class="u-uploaded-video u-video u-video-contain u-video-7">
-                  <div class="embed-responsive">
-                    <video class="embed-responsive-item">
-                      <source src="files/Video_S1.mp4" type="video/mp4">
-                      <p>Your browser does not support HTML5 video.</p>
-                    </video>
-                    <button class="u-video-poster"></button>
-                  </div>
-                </div>
-                <div class="u-expanded-width-xs u-uploaded-video u-video u-video-contain u-video-8">
-                  <div class="embed-responsive">
-                    <video class="embed-responsive-item">
-                      <source src="files/Video_S2.mp4" type="video/mp4">
-                      <p>Your browser does not support HTML5 video.</p>
-                    </video>
-                    <button class="u-video-poster"></button>
-                  </div>
-                </div>
-                <p class="u-align-left u-heading-font u-text u-text-17"> Diffusive transport analysis of an S2 cell ER network</p>
-                <p class="u-align-left u-heading-font u-text u-text-18"> Diffusive transport analysis of the neuromuscular junction (NMJ) in <span style="font-style: italic;">D. melanogaster</span> ER network<br>
-                </p>
-              </div>
-            </div>
           </div>
-          <a class="u-absolute-vcenter-xl u-carousel-control u-carousel-control-prev u-hidden-xs u-icon-circle u-palette-1-base u-spacing-10 u-carousel-control-1" href="#carousel-4ae5" role="button" data-u-slide="prev">
+          <a class="u-absolute-vcenter-xl u-carousel-control u-carousel-control-prev u-hidden-xs u-icon-circle u-palette-1-base u-spacing-10 u-carousel-control-1" href="#carousel-eb17" role="button" data-u-slide="prev">
             <span aria-hidden="true">
               <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
 c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
@@ -211,7 +251,7 @@ c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.3
 c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
             </span>
           </a>
-          <a class="u-absolute-vcenter-xl u-carousel-control u-carousel-control-next u-hidden-xs u-icon-circle u-palette-1-base u-spacing-10 u-carousel-control-2" href="#carousel-4ae5" role="button" data-u-slide="next">
+          <a class="u-absolute-vcenter-xl u-carousel-control u-carousel-control-next u-hidden-xs u-icon-circle u-palette-1-base u-spacing-10 u-carousel-control-2" href="#carousel-eb17" role="button" data-u-slide="next">
             <span aria-hidden="true">
               <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
 L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
@@ -284,7 +324,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
     margin-right: auto;
     margin-bottom: 0;
   }
-  .u-section-1 .u-container-layout-2 {
+  .u-section-1 .u-container-layout-3 {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 80px;
