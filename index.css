@@ -395,7 +395,6 @@
 }
 
 .u-section-4 .u-btn-4 {
-  background-image: none;
   padding: 0;
 }
 
@@ -435,6 +434,11 @@
 }
 
 .u-section-4 .u-btn-12 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-4 .u-btn-13 {
   background-image: none;
   padding: 0;
 }
