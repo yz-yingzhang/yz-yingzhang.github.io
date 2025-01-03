@@ -319,10 +319,6 @@
   padding: 0;
 }
 
-.u-section-3 .u-btn-9 {
-  padding: 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-3 .u-text-1 {
     width: 803px;
@@ -386,7 +382,6 @@
 }
 
 .u-section-4 .u-btn-2 {
-  background-image: none;
   padding: 0;
 }
 
@@ -395,16 +390,15 @@
 }
 
 .u-section-4 .u-btn-4 {
+  background-image: none;
   padding: 0;
 }
 
 .u-section-4 .u-btn-5 {
-  background-image: none;
   padding: 0;
 }
 
 .u-section-4 .u-btn-6 {
-  background-image: none;
   padding: 0;
 }
 
@@ -439,6 +433,16 @@
 }
 
 .u-section-4 .u-btn-13 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-4 .u-btn-14 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-4 .u-btn-15 {
   background-image: none;
   padding: 0;
 }
